@@ -24,6 +24,10 @@ body {
   background-color: transparent;
   box-shadow: inset -5px -5px 12px rebeccapurple,
     5px 5px 12px mediumseagreen;
+    
+background: url("./clock2.jpg") no-repeat;
+  background-size: cover;
+
 
 }
 
