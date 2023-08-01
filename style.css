@@ -1,0 +1,137 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: black;
+  background: url("./clock2.jpg") no-repeat;
+  background-size: cover;
+
+}
+
+.clock {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: transparent;
+  box-shadow: inset -5px -5px 12px rebeccapurple,
+    5px 5px 12px mediumseagreen;
+
+}
+
+.hour-hand,
+.minute-hand,
+.second-hand,
+.center-circle {
+  position: absolute;
+  background-color: #333;
+}
+
+
+
+.hour-hand {
+  width: 6px;
+  height: 60px;
+  top: 50px;
+  left: 97px;
+  transform-origin: 50% 90%;
+}
+
+.minute-hand {
+  width: 4px;
+  height: 80px;
+  top: 40px;
+  left: 98px;
+  transform-origin: 50% 90%;
+}
+
+.second-hand {
+  width: 2px;
+  height: 90px;
+  top: 30px;
+  left: 99px;
+  transform-origin: 50% 90%;
+  background-color: red;
+}
+
+.center-circle {
+  width: 14px;
+  height: 14px;
+  top: 94px;
+  left: 94px;
+  border-radius: 50%;
+
+
+}
+
+
+
+.number {
+  position: absolute;
+  font-size: 18px;
+  color: whitesmoke;
+  transform-origin: 50% 100%;
+  pointer-events: none;
+}
+
+.number-1 {
+  top: 10px;
+  left: 92px;
+}
+
+.number-2 {
+  top: 20px;
+  left: 136px;
+}
+
+.number-3 {
+  top: 45px;
+  left: 163px;
+}
+
+.number-4 {
+  top: 83px;
+  left: 174px;
+}
+
+.number-5 {
+  top: 125px;
+  left: 163px;
+}
+
+.number-6 {
+  top: 157px;
+  left: 135px;
+}
+
+.number-7 {
+  top: 173px;
+  left: 93px;
+}
+
+.number-8 {
+  top: 157px;
+  left: 50px;
+}
+
+.number-9 {
+  top: 125px;
+  left: 22px;
+}
+
+.number-10 {
+  top: 83px;
+  left: 11px;
+}
+
+.number-11 {
+  top: 45px;
+  left: 22px;
+}
+
+.number-12 {
+  top: 15px;
+  left: 50px;
+}
