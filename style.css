@@ -1,4 +1,8 @@
 
+*{
+  transition: all .2s ease-out;
+}
+
 
 body {
   display: flex;
@@ -73,7 +77,7 @@ body {
 
 .number {
   position: absolute;
-  font-size: 18px;
+  font-size: 24px;
   color: whitesmoke;
   transform-origin: 50% 100%;
   pointer-events: none;
@@ -139,7 +143,115 @@ body {
   left: 100px;
 }
 
+@media only screen and (max-width: 400px) {
+  .clock {
+  
+  width: 200px;
+  height: 200px;
+}
 
+
+.hour-hand {
+  width: 6px;
+  height: 60px;
+  top: 50px;
+  left: 97px;
+  
+}
+
+.minute-hand {
+  width: 4px;
+  height: 80px;
+  top: 40px;
+  left: 98px;
+  
+}
+
+.second-hand {
+  width: 2px;
+  height: 90px;
+  top: 30px;
+  left: 99px;
+  
+}
+
+.center-circle {
+  width: 14px;
+  height: 14px;
+  top: 94px;
+  left: 94px;
+  
+
+
+}
+
+
+
+.number {
+  font-size: 18px;
+}
+
+.number-1 {
+  top: 10px;
+  left: 92px;
+}
+
+.number-2 {
+  top: 20px;
+  left: 136px;
+}
+
+.number-3 {
+  top: 45px;
+  left: 163px;
+}
+
+.number-4 {
+  top: 83px;
+  left: 174px;
+}
+
+.number-5 {
+  top: 125px;
+  left: 163px;
+}
+
+.number-6 {
+  top: 157px;
+  left: 135px;
+}
+
+.number-7 {
+  top: 173px;
+  left: 93px;
+}
+
+.number-8 {
+  top: 157px;
+  left: 50px;
+}
+
+.number-9 {
+  top: 125px;
+  left: 22px;
+}
+
+.number-10 {
+  top: 83px;
+  left: 11px;
+}
+
+.number-11 {
+  top: 45px;
+  left: 22px;
+}
+
+.number-12 {
+  top: 15px;
+  left: 50px;
+}
+
+}
 
 /*body {
   display: flex;
